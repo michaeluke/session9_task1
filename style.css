@@ -1,0 +1,211 @@
+.header {
+  margin-inline: 10%;
+  margin-bottom: 5px;
+}
+.header .title {
+  font-weight: 700;
+  font-size: 24px;
+}
+.header .icons {
+  padding-left: 20px;
+  margin-right: 12px;
+  font-size: 30px;
+}
+.header .icons .quantity {
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  padding: 3px 10px;
+  top: 0.5rem;
+  left: 89%;
+  font-size: 0.8rem;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  margin-inline: 10%;
+  /* Hide the images by default */
+  /* Next & previous buttons */
+  /* On hover, add a black background color with a little bit see-through */
+}
+.slideshow-container .mySlides {
+  display: block;
+  /* Caption text */
+}
+.slideshow-container .mySlides .text {
+  color: #1a1515;
+  font-size: 15px;
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.slideshow-container .prev,
+.slideshow-container .next {
+  cursor: pointer;
+  position: absolute;
+  top: 100%;
+  width: auto;
+  margin-left: 5%;
+  color: rgb(100, 95, 95);
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.slideshow-container .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  margin-right: 14%;
+}
+.slideshow-container .prev:hover,
+.slideshow-container .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next, .text {
+    font-size: 11px;
+  }
+}
+.description {
+  margin-inline: 10%;
+}
+.description .title, .description .desc, .description .price {
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 4px;
+}
+.description .title {
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.description .desc {
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #555555;
+}
+.description .price {
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  text-transform: capitalize;
+  /* Primary/Default */
+  color: #DD8560;
+}
+
+.colors_sizes {
+  margin-inline: 10%;
+  margin-bottom: 50px;
+}
+.colors_sizes .colors .text, .colors_sizes .sizes .text {
+  margin-right: 10px;
+}
+.colors_sizes .colors .circle-button, .colors_sizes .sizes .circle-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-inline: 10px;
+}
+.colors_sizes .colors {
+  margin-right: 100px;
+}
+.colors_sizes .colors .circle-button {
+  border-color: transparent;
+}
+.colors_sizes .colors .black {
+  background-color: #000000;
+}
+.colors_sizes .colors .orange {
+  background-color: #DD8560;
+}
+.colors_sizes .colors .gray {
+  background-color: #E1E0DB;
+}
+.colors_sizes .sizes {
+  border-color: #E1E0DB;
+}
+.colors_sizes .sizes .circle-button .small, .colors_sizes .sizes .circle-button .medium, .colors_sizes .sizes .circle-button .large {
+  background-color: transparent;
+}
+
+.footer {
+  margin-inline: 10%;
+  align-items: center;
+}
+.footer .plus {
+  padding-left: 15px;
+  padding-right: 25px;
+  cursor: pointer;
+}
+.footer .basket {
+  cursor: pointer;
+  padding-right: 70%;
+}
+.footer .plus, .footer .text-light, .footer .heart {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.modal {
+  background-color: whitesmoke;
+}
+.modal .modal-content {
+  height: 500px;
+}
+.modal .modal-content .modal-header {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: none;
+}
+.modal .modal-content .modal-header .btn-close {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.modal .modal-content .modal-body .text {
+  padding-top: 150px;
+}
+.modal .modal-content .modal-footer {
+  border-top: none;
+}
+.modal .modal-content .modal-footer .cart_icon {
+  padding-inline: 5px;
+}
+.modal .modal-content .modal-footer .continue {
+  padding-inline: 5px;
+}/*# sourceMappingURL=style.css.map */
